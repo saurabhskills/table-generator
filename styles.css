@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+/* Rounded Rectangle for Input and Output */
+.input-box {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Label and Input */
+.input-box label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button */
+.input-box button {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #4CAF50;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.input-box button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Output Table Styling */
+#table-output {
+    font-size: 18px;
+    color: white;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Center the table rows */
+#table-output table {
+    border-collapse: collapse;
+}
+
+#table-output td {
+    padding: 4px;
+    text-align: center;
+}
